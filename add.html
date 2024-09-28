@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add more todo's</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./toadd.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="bar to" onclick="gotoToday()">Today</a></div>
+            <div class="bar add" onclick="gotoAdd()">Add<img src="./toadd.svg" alt="add image"></div>
+            <div class="bar remaining" onclick="gotoRemaining()">Remaining</div>
+        </div>
+        <div class="toAdd">
+            <h1 class="heading" style="text-align: center; font-weight: 300; color: white;">Add More ToDo's</h1>
+            <div class="mini">
+                <label for="toInput" style="font-size: 50px;">Add Todo's</label>
+                <textarea style="border-radius: 20px;padding: 5%; font-size: larger;" type="text" id="toInput" placeholder="Enter your todo"></textarea>
+                <button style="border-radius: 20px; font-size: larger;" onclick="saveTODO()"><img src="./toadds.svg" alt="Adding image">Add</button>
+            </div>
+        </div>
+    </div>
+    <script src="./siderbar.js"></script>
+    <script src="./saveTODO.js"></script>
+</body>
+</html>

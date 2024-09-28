@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remaing Todo's</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./remaing.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="bar to" onclick="gotoToday()">Today</a></div>
+            <div class="bar add" onclick="gotoAdd()">Add<img src="./toadd.svg" alt="add image"></div>
+            <div class="bar remaining" onclick="gotoRemaining()">Remaining</div>
+        </div>
+        <div class="left">
+            <h1 class="heading" style="text-align: center; font-weight: 300; color: white;">Remaining ToDo's</h1>
+            <div class="todoo">
+                <div class="todos">
+                    <p>Sno.</p>
+                    <p>ToDo</p>
+                    <img src="./delete.svg" height="50px">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./siderbar.js"></script>
+    <script src="./showTODO.js"></script>
+</body>
+</html>

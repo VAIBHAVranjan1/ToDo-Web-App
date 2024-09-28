@@ -1,0 +1,29 @@
+.mini{
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4%;
+}
+textarea {
+    border: none;
+    outline: none;
+    padding: 10px; /* Adjust the padding as needed */
+    border-radius: 20px;
+    resize: none; /* Prevent resizing */
+    flex-grow: 1;
+    margin-right: 10px;
+    width: 300px; /* Set width */
+    height: auto; /* Let the height adjust to content */
+    box-sizing: border-box; /* Include padding and border in the width and height */
+    word-wrap: break-word; /* Ensure word wrap */
+    overflow: auto; /* Ensure scroll if needed */
+}
+
+textarea::placeholder {
+    color: #aaa; /* Placeholder color */
+    padding-left: 5px; /* Optional: adjust placeholder padding */
+}
